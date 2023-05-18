@@ -3,7 +3,9 @@ package com.example.images.Module;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Src {
+import java.io.Serializable;
+
+public class Src implements Serializable {
     @SerializedName("original")
     @Expose
     private String original;
